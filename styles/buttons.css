@@ -1,0 +1,192 @@
+.subscribe-button {
+    background-color: rgb(204, 0, 0);
+    color: white;
+    border: none;
+    /* height: 36px;
+    width: 105px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+.subscribe-button:hover {
+    opacity: 0.8;
+}
+.subscribe-button:active {
+    opacity: 0.5;
+}
+
+.join-button {
+    background-color: white;
+    color: rgb(6, 95, 212);
+    border-color:rgb(6, 95, 212);
+    border-width: 1px;
+    border-style: solid;
+    /* height: 36px;
+    width: 62px; */
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    cursor: pointer; 
+    transition: background-color 0.15s,
+    color 0.15s;  
+    vertical-align: top;
+    margin-right: 8px;
+}
+.join-button:hover {
+    background-color:rgb(6, 95, 212);
+    color: white;
+    
+}
+.join-button:active {
+    opacity: 0.7;
+}
+
+.tweet-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    border-radius: 18px;
+    /* height: 36px;
+    width: 70px; */
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22.5px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+    margin-right: 8px;
+}
+
+.tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+
+.requestnow-button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size:xx-small;
+    /* width: 75px;
+    height: 25px; */
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: top;
+    border: none;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.addtocart-button {
+    background-color: rgb(255, 216, 20);
+    color: rgb(0, 0, 0);
+    /* width: 130px;
+    height: 25px; */
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    vertical-align: top;
+    border-radius: 45px;
+    cursor: pointer;
+    border: none;
+    margin-right: 8px;
+}
+.signup-button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    font-weight: bold;
+    border: none;
+    /* width: 90px;
+    height: 30px; */
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 18px;
+    padding-right: 18px;
+    vertical-align: top;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+.getstarted-button {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    font-weight: bold;
+    border: none;
+    /* width: 110px;
+    height: 40px; */
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: top;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 8px;
+
+}
+.download-button {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(149, 151, 153);
+    /* width: 110px;
+    height: 40px; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: top;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+.apply-button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    /* width: 210px;
+    height: 40px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: top;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-right: 8px;
+}
+.save-button {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    font-weight: bold;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(10, 102, 194);
+    /* width: 80px;
+    height: 40px; */
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: top;
+    cursor: pointer;
+    margin-right: 8px;
+}
