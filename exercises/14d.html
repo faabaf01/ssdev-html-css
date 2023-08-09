@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14d</title>
+    <style>
+        .sticky {
+            background-color: green;
+            color: white;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 100px;
+        }
+        .overlay {
+            background-color: rgba(0,0,0,0.6);
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .modal-container {
+            background-color: white;
+            width: 350px;
+            height: 110px;
+            padding-left: 20px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 20px;
+            border-radius: 10px;
+        }
+        .title {
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .subtitle {
+            margin-bottom: 15px;
+        }
+        button {
+            /* margin-bottom: 15px; */
+        }
+    </style>
+</head>
+<body style="height: 3000px; font-family: Arial;">
+    <div class="sticky">
+        right-sidebar
+    </div>
+    <div class="overlay">
+        <div class="modal-container">
+            <div class="title">Modal Title</div>
+            <div class="subtitle">This is a modal</div>
+            <button>Close</button>
+        </div>
+    </div>
+</body>
+</html>
