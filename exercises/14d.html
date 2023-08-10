@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>14d</title>
     <style>
-        .sticky {
+        body {
+            height: 3000px;
+        }
+        .right-sidebar {
             background-color: green;
             color: white;
             position: fixed;
@@ -15,7 +18,7 @@
             width: 100px;
         }
         .overlay {
-            background-color: rgba(0,0,0,0.6);
+            background-color: rgba(0,0,0,0.5);
             position: fixed;
             top: 0;
             right: 0;
@@ -26,37 +29,35 @@
             align-items: center;
             justify-content: center;
         }
-        .modal-container {
+        .modal {
             background-color: white;
-            width: 350px;
-            height: 110px;
-            padding-left: 20px;
-            padding-right: 10px;
-            padding-bottom: 10px;
-            padding-top: 20px;
-            border-radius: 10px;
+            width: 300px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            border-radius: 5px;
         }
-        .title {
-            font-size: 26px;
+        .modal-title {
+            font-family: Arial;
             font-weight: bold;
-            margin-bottom: 15px;
+            font-size: 24px;
+            margin-bottom: 12px;
         }
-        .subtitle {
-            margin-bottom: 15px;
-        }
-        button {
-            /* margin-bottom: 15px; */
+        .modal-content {
+            font-family: Arial;
+            margin-bottom: 12px;
         }
     </style>
 </head>
-<body style="height: 3000px; font-family: Arial;">
-    <div class="sticky">
+<body>
+    <div class="right-sidebar">
         right-sidebar
     </div>
     <div class="overlay">
-        <div class="modal-container">
-            <div class="title">Modal Title</div>
-            <div class="subtitle">This is a modal</div>
+        <div class="modal">
+            <div class="modal-title">Modal Title</div>
+            <div class="modal-content">This is a modal</div>
             <button>Close</button>
         </div>
     </div>
