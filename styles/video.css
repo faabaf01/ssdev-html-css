@@ -25,7 +25,23 @@
     border-radius: 50px;
 }
 .thumbnail-row {
+    position: relative;
     margin-bottom: 12px;   
+}
+.video-time {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 5px;
+    bottom: 8px;
 }
 .video-grid {
     display: grid;
